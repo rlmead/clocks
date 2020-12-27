@@ -1,6 +1,13 @@
+import React from 'react';
+import Display from './components/Display';
+import Header from './components/Header';
+
 function App() {
   return (
-    <p>here are some clocks</p>
+    <>
+      <Header />
+      <Display />
+    </>
   );
 }
 
