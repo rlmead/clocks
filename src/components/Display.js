@@ -1,14 +1,14 @@
 import React from 'react';
 import FaceDetection from './FaceDetection';
-import Clock from './Clock';
+import ClockFace from './ClockFace';
 
 function Display() {
-    return (
-        <div>
-            <Clock />
-            <FaceDetection />
-        </div>
-    );
+  return (
+    <>
+      <ClockFace />
+      <FaceDetection />
+    </>
+  );
 
 }
 
